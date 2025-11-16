@@ -1,0 +1,18 @@
+# Python dependencies for Zerobus Meter Data Generation and Ingestion
+# Install with: pip install -r requirements.txt
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0  # Required for parquet file operations
+
+# HTTP client for Zerobus API
+requests>=2.31.0
+
+# Optional: For enhanced performance
+# fastparquet>=2023.4.0  # Alternative parquet engine (optional)
+# polars>=0.18.0  # High-performance DataFrame library (optional)
+
+# Development and testing
+# pytest>=7.4.0  # For unit tests (optional)
+# jupyter>=1.0.0  # For interactive analysis (optional)
